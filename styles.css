@@ -1,5 +1,10 @@
 body {
-    
+    text-align: center;
+    background-color: #1F1F1F;
+    color: #EDEDED;
+}
+
+
 
 .main {
     display:flex;
@@ -10,6 +15,7 @@ body {
 
 .navigation ul{
     list-style:none;
+    font-size: 16px;
     padding:0;
     margin:20px 0;
     text-color: #E9E4DB;
@@ -19,4 +25,21 @@ body {
     gap:30px;
 }
 
+a:link {
+    color: pink;
+} 
 
+a:hover {
+     color: #EDEDED;
+     text-shadow: 3px 2px 3px pink;
+}
+
+.header {
+     font-size: 20px;
+     margin-top: 50px;
+     
+}
+
+h1 {
+     font-size: 16px;
+}

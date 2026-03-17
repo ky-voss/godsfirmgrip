@@ -12,7 +12,7 @@ body {
     display:flex;
     flex-direction:column;
     align-items:center;
-    color: black;
+    color: #ededed;
 }
 
 .navigation ul{
@@ -83,8 +83,4 @@ h1 {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-.gallery {
-   content-align: center;
 }

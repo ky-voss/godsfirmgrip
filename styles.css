@@ -76,7 +76,7 @@ body {
 }
 
 .gallery-item img {
-    width: 25%;
+    width: max(10rem,18vw);
     height: auto;
     display: inline-block;
 }

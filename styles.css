@@ -59,7 +59,7 @@ body {
 
 .column img {
     width: 100%;
-    display: block;
+    display: inline;
     border-radius: 6px;
     transition: transform 0.2s ease;
 }

@@ -80,8 +80,9 @@ body {
 }
 
 .gallery-item img {
-    width: max(10rem,18vw);
-    height: auto;
+    width: 100px;
+    height: 100px;
+    overflow: none; 
     display: inline-block;
 }
 

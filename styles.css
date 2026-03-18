@@ -2,60 +2,60 @@ body {
     text-align: center;
     background-color: #1F1F1F;
     color: #EDEDED;
-    width: auto;
-
+    margin: 0;
+    font-family: Arial, sans-serif;
+    max-width: 100;
+    padding: 10px;
 }
-
-
 
 .main {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.navigation ul{
-    list-style:none;
+.navigation ul {
+    list-style: none;
     font-size: 16px;
-    padding:0;
-    margin:20px 0;
-    text-color: #E9E4DB;
-    display:flex;
-    justify-content:center;
-    gap:30px;
+    padding: 0;
+    margin: 20px 0;
+    color: #E9E4DB; 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-a:link {
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
     color: pink;
-} 
+}
 
 a:hover {
     color: #EDEDED;
     text-shadow: 3px 2px 3px pink;
 }
 
-a:visited {
-    color: pink;
-}
-
 .header {
     font-size: 20px;
     margin-top: 50px;
-     
 }
 
 h1 {
     font-size: 16px;
 }
 
+/* Image Grid */
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    justify-content: center;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 25%;
@@ -64,22 +64,22 @@ h1 {
 
 .column img {
     margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
+    display: block;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Tablet */
 @media screen and (max-width: 800px) {
-  .column {
-      flex: 50%;
-      max-width: 50%;
-  }
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Mobile */
 @media screen and (max-width: 600px) {
-  .column {
-      flex: 100%;
-      max-width: 100%;
-  }
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }

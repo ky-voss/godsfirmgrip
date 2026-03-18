@@ -1,11 +1,10 @@
 /* Base */
 body {
-    margin: 20px;
+    margin: 1px;
     font-family: 'Times New Roman', serif;
     background-color: #1F1F1F;
     color: #EDEDED;
     text-align: center;
-    max-width: 100%;
     display: flex;
     
 }
@@ -27,7 +26,7 @@ body {
 
 .divider {
     margin: 10px 0 20px;
-    opacity: 0.8;
+    opacity: 1;
     text-shadow: 0 0 8px white;
 }
 
@@ -65,12 +64,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px; /* spacing between items */
+    gap: 5px; 
     padding: 10px;
 }
 
 .gallery-item {
-    width: calc(25% - 15px); /* 4 per row */
+    width: calc(25% - 15px);
     border: 1px solid #444;
     border-radius: 6px;
     transition: transform 0.2s ease, border 0.2s ease;

@@ -1,7 +1,7 @@
 /* Base */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background-color: #1F1F1F;
     color: #EDEDED;
     text-align: center;
@@ -14,9 +14,14 @@ body {
     letter-spacing: 2px;
 }
 
+.header a:hover {
+    color: #fff;
+    text-shadow: 0 0 8px pink;
+}
+
 .divider {
     margin: 10px 0 20px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 /* Navigation */

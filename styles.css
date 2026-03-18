@@ -6,7 +6,7 @@ body {
     color: #EDEDED;
     text-align: center;
     display: flex;
-    
+    align-items:  center;
 }
 
 
@@ -36,6 +36,8 @@ body {
     top: 0;
     background-color: #1F1F1F;
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
     z-index: 1000;
 }
 
@@ -66,10 +68,13 @@ body {
     justify-content: center;
     gap: 5px; 
     padding: 10px;
+    align-items: center;
+    max-width: 100%
 }
 
 .gallery-item {
     width: calc(25% - 15px);
+    max-width: 100%
     border: 1px solid #444;
     border-radius: 6px;
     transition: transform 0.2s ease, border 0.2s ease;
@@ -82,8 +87,9 @@ body {
 .gallery-item img {
     width: 100px;
     height: 100px;
-    overflow: none; 
+    overflow: hidden; 
     display: inline-block;
+    max-width: 100%
 }
 
 .desc {

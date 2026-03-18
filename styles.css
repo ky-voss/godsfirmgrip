@@ -5,9 +5,7 @@ body {
     background-color: #1F1F1F;
     color: #EDEDED;
     text-align: center;
-    display: flex;
-    align-items:  vertical;
-}
+   
 
 
 
@@ -17,6 +15,8 @@ body {
     margin-top: 40px;
     width: 100%;
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .header:hover {
@@ -117,38 +117,14 @@ body {
     padding: 20px;
 }
 
-/* Form */
-form {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+
 }
 
-input,
-textarea {
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
-    background-color: #2A2A2A;
-    color: white;
-    font-size: 14px;
+a {
+    color: pink;
 }
 
-input:focus,
-textarea:focus {
-    outline: none;
-    box-shadow: 0 0 6px pink;
-}
-
-/* Button */
-input[type="submit"] {
-    background-color: pink;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-input[type="submit"]:hover {
-    background-color: #fff;
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 6px pink;
 }

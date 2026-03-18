@@ -6,13 +6,18 @@ body {
     color: #EDEDED;
     text-align: center;
     max-width: 100%;
+    display: flex;
     
 }
+
+
 
 /* Header */
 .header {
     font-size: 20px;
     margin-top: 40px;
+    width: 100%;
+    display: flex;
 }
 
 .header:hover {
